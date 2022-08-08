@@ -1,27 +1,33 @@
 body{
-  background-color: blue;
+  background-color: grey;
   text-align: center;
+  border-style: outset;
+  border-color: white;
+  background-image: url(https://storage.googleapis.com/afs-prod/media/afs:Medium:5541950108/775.jpeg);
 }
 
 .shonglee{
-  color: gold;
+  color: white;
   font-size: 30px;
   text-align: center;
-  font-family: Helvetica 
+  font-family: lucida console 
 }
 
 .contact{
-  color:gold;
+  color:white;
   font-size: 20px;
+  border-style: ridge;
+  border-width: 2px;
+  
  
 }
 
 .exp{
-  color:gold;
+  color:white;
 }
 
 .ref{
-  color:gold;
+  color:white;
 }
 
 h3{
