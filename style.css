@@ -24,6 +24,7 @@ body{
 
 .exp{
   color:white;
+  list-style-position: inside;
 }
 
 .ref{
@@ -33,4 +34,5 @@ body{
 h3{
   text-transform: uppercase;
 }
+
 
