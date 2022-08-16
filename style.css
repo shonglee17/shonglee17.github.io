@@ -6,33 +6,55 @@ body{
   background-image: url(https://storage.googleapis.com/afs-prod/media/afs:Medium:5541950108/775.jpeg);
 }
 
-.shonglee{
-  color: white;
-  font-size: 30px;
-  text-align: center;
-  font-family: lucida console 
+h1{
+ font-size: 60px;
+  font-family: Helvetica;
 }
 
-.contact{
-  color:white;
-  font-size: 20px;
-  border-style: ridge;
-  border-width: 2px;
-  
- 
-}
-
-.exp{
-  color:white;
-  list-style-position: inside;
-}
-
-.ref{
-  color:white;
+h2{
+  font-family: Garamond
 }
 
 h3{
   text-transform: uppercase;
+  text-decoration-line: underline;
+  
 }
 
+h4{
+   text-transform: uppercase;
+}
 
+.grid-container{
+  display: grid;
+  grid-template-columns: 75% 25%;
+  color: white;
+  align-content: center;
+  height: 100vh;
+  
+ 
+  
+  
+}
+
+.grid-item1{
+  border:solid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+ 
+}
+
+.grid-item3{
+  border: solid;
+  list-style-position: inside;
+  grid-column-start: 1;
+}
+
+.grid-item4{
+  border:solid;
+}
+.grid-item5{
+  border: solid;
+  grid-column-start:1;
+  grid-column-end: 3;
+}
